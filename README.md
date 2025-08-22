@@ -16,11 +16,11 @@ A simple **Retrieval-Augmented Generation (RAG)** chatbot that answers questions
 - [Google Gemini API](https://ai.google.dev/)  
 
 ## 📂 Project Structure
-├── rag_app.py # Main chatbot loop (asks questions and generates answers)
-├── embed_pdfs.py # Script for loading & embedding PDFs
-├── chroma_db_nccn/ # Persistent ChromaDB vector storage
-├── docs/ # PDF documents (your own files go here)
-└── README.md # Project documentation
+1. rag_app.py # Main chatbot loop (asks questions and generates answers)
+2. embed_pdfs.py # Script for loading & embedding PDFs
+3. chroma_db_nccn/ # Persistent ChromaDB vector storage
+4. docs/ # PDF documents (your own files go here)
+5. README.md # Project documentation
 
 ## ⚙️ Installation
 1. **Clone this repository**
@@ -28,12 +28,6 @@ A simple **Retrieval-Augmented Generation (RAG)** chatbot that answers questions
    git clone https://github.com/yourusername/rag-pdf-assistant.git
    cd rag-pdf-assistant
 
-
-   **Create and activate a virtual environment**
-
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
 
 ⚠️ **Disclaimer**
 
